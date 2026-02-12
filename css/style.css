@@ -51,6 +51,20 @@ main{
 .filmes{
     background-color: #F1E9E9;
     color: #982598;
-    font-size: 18px;
+    font-size: 22px;
     width: 100%;
+    border-collapse: collapse;
+}
+
+.filmes th,td{
+    padding: 15px;
+    border-bottom: 2px solid #15173D;
+    text-align: center;
+}
+.filmes tbody tr:nth-child(odd){
+    background-color: #E491C9;
+}
+.filmes thead tr{
+    background-color: #271227;
+    color: #F1E9E9;
 }
